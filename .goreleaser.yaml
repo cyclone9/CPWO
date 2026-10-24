@@ -1,0 +1,35 @@
+version: 2
+project_name: cpwo
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - env:
+      - CGO_ENABLED=0
+    # nodynamic stops the WebP/AVIF packages from linking purego and loading a
+    # system libwebp/libavif at startup, which keeps the Linux binary static.
+    # scripts/build.sh uses the same flags.
+    flags:
+      - -trimpath
+    tags:
+      - nodynamic
+    goos: [linux, windows, darwin]
+    goarch: [amd64, arm64]
+    ldflags:
+      - -s -w -X main.version={{.Version}}
+
+archives:
+  - formats: [tar.gz]
+    format_overrides:
+      - goos: windows
+        formats: [zip]
+    files:
+      - README*.md
+      - CHANGELOG.md
+      - LICENSE
+      - licenses.md
+
+checksum:
+  name_template: checksums.txt

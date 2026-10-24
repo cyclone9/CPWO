@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 24" role="img" aria-label="CPWO lockup: the Angle symbol and the wordmark side by side. Paper and Leaf, for dark surfaces">
+<path fill="none" stroke="#F2F6F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M12.5 3L3.5 12L12.5 21"/>
+<path fill="#3FCB7A" d="M17 9H21A1 1 0 0 1 22 10V14A1 1 0 0 1 21 15H17A1 1 0 0 1 16 14V10A1 1 0 0 1 17 9Z"/>
+<path transform="translate(32 0)" fill="#F2F6F3" d="M6 2H12A6 6 0 0 1 18 8H14A2 2 0 0 0 12 6H6A2 2 0 0 0 4 8V16A2 2 0 0 0 6 18H12A2 2 0 0 0 14 16H18A6 6 0 0 1 12 22H6A6 6 0 0 1 0 16V8A6 6 0 0 1 6 2Z"/>
+<path transform="translate(54 0)" fill="#F2F6F3" fill-rule="evenodd" d="M0 2H10A6 6 0 0 1 10 14H4V22H0Z M4 6V10H10A2 2 0 0 0 10 6Z"/>
+<path transform="translate(71 0)" fill="#F2F6F3" d="M0 2H4L7 14L10 2H14L17 14L20 2H24L19 22H15L12 10L9 22H5Z"/>
+<path transform="translate(98 0)" fill="#F2F6F3" fill-rule="evenodd" d="M6 2H12A6 6 0 0 1 18 8V16A6 6 0 0 1 12 22H6A6 6 0 0 1 0 16V8A6 6 0 0 1 6 2Z M6 6A2 2 0 0 0 4 8V16A2 2 0 0 0 6 18H12A2 2 0 0 0 14 16V8A2 2 0 0 0 12 6Z"/>
+</svg>
