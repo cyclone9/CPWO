@@ -6,6 +6,8 @@
 
 Sürüm 1.0.0 (2026-10-24). [CHANGELOG.md](CHANGELOG.md) dosyasına bakın.
 
+Web sitesi: [cyclone9.dev/cpwo](https://cyclone9.dev/cpwo)
+
 HTML, CSS ve JS dosyalarını küçülten, görselleri sıkıştırıp WebP ile AVIF'e dönüştüren tek bir binary.
 
 cgo yok, çalıştığı makineye kurulacak bir şey de yok.
@@ -480,7 +482,7 @@ aynı altı hedefi derler.
 ## Lisans
 
 CPWO, MIT Lisansı altında dağıtılır. Copyright (c) 2026 CyClone
-(https://cyclone9.ir). Tam metin [LICENSE](LICENSE) dosyasındadır.
+(https://cyclone9.dev). Tam metin [LICENSE](LICENSE) dosyasındadır.
 
 MIT Lisansı CPWO'nun kodunu ve belgelerini kapsar. CPWO logosunu, kapak görsellerini ve [assets/](assets/) klasöründeki videoları kapsamaz; bunlar CyClone'a aittir ve tüm hakları saklıdır. Videolardaki müzik üçüncü bir taraftan ayrıca lisanslanmıştır ve CPWO'nun parçası değildir.
 

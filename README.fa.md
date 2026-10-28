@@ -6,6 +6,8 @@
 
 نسخه‌ی ‎1.0.0 (2026-10-24). [CHANGELOG.md](CHANGELOG.md) را ببینید.
 
+وب‌سایت: [cyclone9.dev/cpwo](https://cyclone9.dev/cpwo)
+
 یک فایل اجرایی واحد برای کوچک‌سازی HTML، CSS و JS، فشرده‌سازی تصاویر و تبدیل آن‌ها به WebP و AVIF.
 
 از cgo استفاده نمی‌کند و روی ماشینی که آن را اجرا می‌کند، چیزی برای نصب لازم نیست.
@@ -405,7 +407,7 @@ CGO_ENABLED=0 go build -tags nodynamic .
 
 ## مجوز
 
-نرم‌افزار CPWO تحت مجوز MIT منتشر شده است، Copyright (c) 2026 CyClone (https://cyclone9.ir).
+نرم‌افزار CPWO تحت مجوز MIT منتشر شده است، Copyright (c) 2026 CyClone (https://cyclone9.dev).
 متن کامل در [LICENSE](LICENSE) است.
 
 مجوز MIT کد و مستندات CPWO را پوشش می‌دهد. لوگوی CPWO، تصویرهای کاور و ویدیوهای پوشه‌ی [assets/](assets/) را پوشش نمی‌دهد؛ این‌ها متعلق به CyClone است و همه‌ی حقوق آن‌ها محفوظ است. موسیقی ویدیوها را شخص ثالثی جداگانه مجوز داده است و بخشی از CPWO نیست.

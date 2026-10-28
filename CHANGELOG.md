@@ -4,6 +4,8 @@ CPWO uses semantic versioning: the third number for fixes, the second for featur
 
 ## Unreleased
 
+- The READMEs link to the product page, https://cyclone9.dev/cpwo, and the copyright line now points to cyclone9.dev instead of cyclone9.ir.
+
 ## 1.0.0 - 2026-10-24
 
 - The READMEs show the CPWO logo and a short presentation video; the logo, the cover images and the videos are not covered by the MIT License.

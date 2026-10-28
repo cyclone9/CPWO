@@ -6,6 +6,8 @@
 
 Version 1.0.0 (2026-10-24). See [CHANGELOG.md](CHANGELOG.md).
 
+Website: [cyclone9.dev/cpwo](https://cyclone9.dev/cpwo)
+
 A single binary that minifies HTML, CSS and JS, compresses images, and converts them to WebP and AVIF.
 
 No cgo, nothing to install on the machine that runs it.
@@ -460,7 +462,7 @@ cuts a release with GoReleaser, which builds the same six targets.
 ## License
 
 CPWO is released under the MIT License, Copyright (c) 2026 CyClone
-(https://cyclone9.ir). The full text is in [LICENSE](LICENSE).
+(https://cyclone9.dev). The full text is in [LICENSE](LICENSE).
 
 The MIT License covers CPWO's code and documentation. It does not cover the CPWO logo, the cover images or the videos in [assets/](assets/), which belong to CyClone, all rights reserved. The music in the videos is licensed separately from a third party and is not part of CPWO.
 

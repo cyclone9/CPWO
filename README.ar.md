@@ -6,6 +6,8 @@
 
 الإصدار ‎1.0.0 (2026-10-24). انظر [CHANGELOG.md](CHANGELOG.md).
 
+الموقع: [cyclone9.dev/cpwo](https://cyclone9.dev/cpwo)
+
 ملف تنفيذي واحد يصغّر ملفات HTML وCSS وJS، ويضغط الصور، ويحوّلها إلى WebP وAVIF.
 
 لا يستخدم cgo، ولا يحتاج إلى تثبيت أي شيء على الجهاز الذي يشغّله.
@@ -331,7 +333,7 @@ CGO_ENABLED=0 go build -tags nodynamic .
 
 ## الرخصة
 
-يصدر CPWO برخصة MIT، وحقوق النشر (c) 2026 CyClone (https://cyclone9.ir). والنص الكامل في [LICENSE](LICENSE).
+يصدر CPWO برخصة MIT، وحقوق النشر (c) 2026 CyClone (https://cyclone9.dev). والنص الكامل في [LICENSE](LICENSE).
 
 تشمل رخصة MIT شيفرة CPWO ووثائقه. ولا تشمل شعار CPWO ولا صور الأغلفة ولا مقاطع الفيديو الموجودة في [assets/](assets/)، فهذه ملك CyClone وجميع حقوقها محفوظة. أما الموسيقى في الفيديوهات فمرخّصة على حدة من جهة خارجية، وليست جزءًا من CPWO.
 
