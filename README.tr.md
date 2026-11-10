@@ -12,9 +12,9 @@ HTML, CSS ve JS dosyalarını küçülten, görselleri sıkıştırıp WebP ile 
 
 cgo yok, çalıştığı makineye kurulacak bir şey de yok.
 
-<p align="center"><a href="assets/cpwo-video-en.mp4"><img src="assets/cpwo-video-en.jpg" alt="CPWO videosu" width="720"></a></p>
+<p align="center"><img src="assets/cpwo-video-en.gif" alt="CPWO videosu" width="720"></p>
 
-<p align="center">CPWO'ya 24 saniyelik bir bakış. Videoyu açmak için görsele tıklayın. Video İngilizcedir.</p>
+<p align="center">CPWO'ya 21 saniyelik bir bakış. Video İngilizcedir. <a href="assets/cpwo-video-en.mp4?raw=true">Videoyu indir (MP4, 2 MB)</a></p>
 
 ```
 cpwo [flags] <project-path>...
@@ -484,7 +484,7 @@ aynı altı hedefi derler.
 CPWO, MIT Lisansı altında dağıtılır. Copyright (c) 2026 CyClone
 (https://cyclone9.dev). Tam metin [LICENSE](LICENSE) dosyasındadır.
 
-MIT Lisansı CPWO'nun kodunu ve belgelerini kapsar. CPWO logosunu, kapak görsellerini ve [assets/](assets/) klasöründeki videoları kapsamaz; bunlar CyClone'a aittir ve tüm hakları saklıdır. Videolardaki müzik üçüncü bir taraftan ayrıca lisanslanmıştır ve CPWO'nun parçası değildir.
+MIT Lisansı CPWO'nun kodunu ve belgelerini kapsar. CPWO logosunu, [assets/](assets/) klasöründeki videoları ve bunların GIF sürümlerini kapsamaz; bunlar CyClone'a aittir ve tüm hakları saklıdır. Videolardaki müzik üçüncü bir taraftan ayrıca lisanslanmıştır ve CPWO'nun parçası değildir.
 
 Bir CPWO binary'si MIT, BSD ve Apache-2.0 lisanslı üçüncü taraf kod da içerir.
 [licenses.md](licenses.md) her lisans metnini aynen içerir. `cpwo -license` ise

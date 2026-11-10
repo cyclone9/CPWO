@@ -12,9 +12,9 @@
 
 لا يستخدم cgo، ولا يحتاج إلى تثبيت أي شيء على الجهاز الذي يشغّله.
 
-<p align="center"><a href="assets/cpwo-video-en.mp4"><img src="assets/cpwo-video-en.jpg" alt="فيديو CPWO" width="720"></a></p>
+<p align="center"><img src="assets/cpwo-video-en.gif" alt="فيديو CPWO" width="720"></p>
 
-<p align="center" dir="rtl">نظرة في 24 ثانية على CPWO. انقر على الصورة لفتح الفيديو، وهو بالإنجليزية.</p>
+<p align="center" dir="rtl">نظرة في 21 ثانية على CPWO، والفيديو بالإنجليزية. <a href="assets/cpwo-video-en.mp4?raw=true">تنزيل الفيديو (MP4، ‎2 ميغابايت‎)</a></p>
 
 ```
 cpwo [flags] <project-path>...
@@ -335,7 +335,7 @@ CGO_ENABLED=0 go build -tags nodynamic .
 
 يصدر CPWO برخصة MIT، وحقوق النشر (c) 2026 CyClone (https://cyclone9.dev). والنص الكامل في [LICENSE](LICENSE).
 
-تشمل رخصة MIT شيفرة CPWO ووثائقه. ولا تشمل شعار CPWO ولا صور الأغلفة ولا مقاطع الفيديو الموجودة في [assets/](assets/)، فهذه ملك CyClone وجميع حقوقها محفوظة. أما الموسيقى في الفيديوهات فمرخّصة على حدة من جهة خارجية، وليست جزءًا من CPWO.
+تشمل رخصة MIT شيفرة CPWO ووثائقه. ولا تشمل شعار CPWO ولا مقاطع الفيديو الموجودة في [assets/](assets/) ولا نسخها بصيغة GIF، فهذه ملك CyClone وجميع حقوقها محفوظة. أما الموسيقى في الفيديوهات فمرخّصة على حدة من جهة خارجية، وليست جزءًا من CPWO.
 
 كما يضم الملف التنفيذي لأداة CPWO شيفرة من جهات خارجية مرخّصة برخص MIT وBSD وApache-2.0. ويورد [licenses.md](licenses.md) نص كل رخصة كاملًا. أما الأمر `cpwo -license` فيطبع رخصة CPWO (MIT) مع سطر حقوق النشر، ثم سطرًا لكل مكوّن (اسمه ورخصته والغرض من استخدامه)، ويختم بالإشارة إلى أن النصوص الكاملة في licenses.md. وتضم أرشيفات الإصدار الملفين LICENSE وlicenses.md وملفات README. وفي البناء المحلي ينسخ `scripts/build.sh` الملفين LICENSE وlicenses.md إلى `bin/`‎ بجوار الملفات التنفيذية.
 

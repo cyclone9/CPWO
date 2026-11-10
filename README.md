@@ -12,9 +12,9 @@ A single binary that minifies HTML, CSS and JS, compresses images, and converts 
 
 No cgo, nothing to install on the machine that runs it.
 
-<p align="center"><a href="assets/cpwo-video-en.mp4"><img src="assets/cpwo-video-en.jpg" alt="CPWO video" width="720"></a></p>
+<p align="center"><img src="assets/cpwo-video-en.gif" alt="CPWO video" width="720"></p>
 
-<p align="center">A 24-second look at CPWO. Click the image to open the video.</p>
+<p align="center">A 21-second look at CPWO. <a href="assets/cpwo-video-en.mp4?raw=true">Download the video (MP4, 2 MB)</a></p>
 
 ```
 cpwo [flags] <project-path>...
@@ -464,7 +464,7 @@ cuts a release with GoReleaser, which builds the same six targets.
 CPWO is released under the MIT License, Copyright (c) 2026 CyClone
 (https://cyclone9.dev). The full text is in [LICENSE](LICENSE).
 
-The MIT License covers CPWO's code and documentation. It does not cover the CPWO logo, the cover images or the videos in [assets/](assets/), which belong to CyClone, all rights reserved. The music in the videos is licensed separately from a third party and is not part of CPWO.
+The MIT License covers CPWO's code and documentation. It does not cover the CPWO logo, the videos and their GIF versions in [assets/](assets/), which belong to CyClone, all rights reserved. The music in the videos is licensed separately from a third party and is not part of CPWO.
 
 A CPWO binary also contains third-party code under MIT, BSD and Apache-2.0
 licenses. [licenses.md](licenses.md) reproduces every license text.

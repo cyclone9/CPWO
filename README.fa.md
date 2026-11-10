@@ -12,9 +12,9 @@
 
 از cgo استفاده نمی‌کند و روی ماشینی که آن را اجرا می‌کند، چیزی برای نصب لازم نیست.
 
-<p align="center"><a href="assets/cpwo-video-fa.mp4"><img src="assets/cpwo-video-fa.jpg" alt="ویدیوی CPWO" width="720"></a></p>
+<p align="center"><img src="assets/cpwo-video-fa.gif" alt="ویدیوی CPWO" width="720"></p>
 
-<p align="center" dir="rtl">نگاهی ۲۴ ثانیه‌ای به CPWO. برای باز کردن ویدیو روی تصویر کلیک کنید.</p>
+<p align="center" dir="rtl">نگاهی ۲۱ ثانیه‌ای به CPWO. <a href="assets/cpwo-video-fa.mp4?raw=true">دانلود ویدیو (MP4، ۲ مگابایت)</a></p>
 
 ```
 cpwo [flags] <project-path>...
@@ -410,7 +410,7 @@ CGO_ENABLED=0 go build -tags nodynamic .
 نرم‌افزار CPWO تحت مجوز MIT منتشر شده است، Copyright (c) 2026 CyClone (https://cyclone9.dev).
 متن کامل در [LICENSE](LICENSE) است.
 
-مجوز MIT کد و مستندات CPWO را پوشش می‌دهد. لوگوی CPWO، تصویرهای کاور و ویدیوهای پوشه‌ی [assets/](assets/) را پوشش نمی‌دهد؛ این‌ها متعلق به CyClone است و همه‌ی حقوق آن‌ها محفوظ است. موسیقی ویدیوها را شخص ثالثی جداگانه مجوز داده است و بخشی از CPWO نیست.
+مجوز MIT کد و مستندات CPWO را پوشش می‌دهد. لوگوی CPWO، ویدیوها و نسخه‌های GIF آن‌ها در پوشه‌ی [assets/](assets/) را پوشش نمی‌دهد؛ این‌ها متعلق به CyClone است و همه‌ی حقوق آن‌ها محفوظ است. موسیقی ویدیوها را شخص ثالثی جداگانه مجوز داده است و بخشی از CPWO نیست.
 
 فایل اجرایی CPWO کد شخص ثالثی هم دارد که تحت مجوزهای MIT، BSD و Apache-2.0 است.
 فایل [licenses.md](licenses.md) متن همه‌ی مجوزها را بازتولید می‌کند.
